@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ödev Webtasarım Ve Programlama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h2>Web Tasarım Ödevi</h2>
+ <div class="main-container">
+        
+    <!-- yan yer için -->
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">Spor / Outdoor <span>&gt;</span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Doğa Sporları</a></li>
+                        <li><a href="#">Kamp Malzemeleri</a></li>
+                        <li><a href="#">Spor Ayakkabı</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Giyim / Ayakkabı <span>&gt;</span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Kadın Giyim</a></li>
+                        <li><a href="#">Erkek Giyim</a></li>
+                        <li><a href="#">Çocuk Giyim</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Kitap / Film / Müzik <span>&gt;</span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Çok Satan Kitaplar</a></li>
+                        <li><a href="#">Yabancı Yayınlar</a></li>
+                        <li><a href="#">Plaklar</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Oto Aksesuar / Yapı Market <span>&gt;</span></a>
+                    <ul class="submenu">
+                        <li><a href="#">Oto Koltuk Kılıfı</a></li>
+                        <li><a href="#">El Aletleri</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        
+        <div class="right-content">
+            
+           
+            <div class="slider-section">
+                <div class="slider-wrapper">
+                    
+                    <div class="thumbnails-container">
+                        <!-- Küçük Resimler -->
+                        <div class="thumb-box" id="thumb1">
+                            <img src="https://unsplash.com" alt="Kampanya 1">
+                        </div>
+                        <div class="thumb-box" id="thumb2">
+                            <img src="https://unsplash.com" alt="Kampanya 2">
+                        </div>
+                        <div class="thumb-box" id="thumb3">
+                            <img src="https://unsplash.com" alt="Kampanya 3">
+                        <!-- nedense reimler gözükmüyo buraya bak ama yapamiycan galiba olmuyo -->
+                        </div>
+
+                        
+                        <div class="main-images">
+                            <img src="https://unsplash.com" class="img1" alt="Büyük Afiş 1">
+                            <img src="https://unsplash.com" class="img2" alt="Büyük Afiş 2">
+                            <img src="https://unsplash.com" class="img3" alt="Büyük Afiş 3">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- yandaki menü için -->
+            <div class="tabs-section">
+                <input type="radio" name="vitrin-tabs" id="tab-best" class="tab-input" checked>
+                <input type="radio" name="vitrin-tabs" id="tab-new" class="tab-input">
+                <input type="radio" name="vitrin-tabs" id="tab-discount" class="tab-input">
+
+                <ul class="tab-headers">
+                    <li><label for="tab-best">Çok Satanlar</label></li>
+                    <li><label for="tab-new">Yeni Eklenenler</label></li>
+                    <li><label for="tab-discount">İndirimdekiler</label></li>
+                </ul>
+
+                <div class="tab-content-wrapper">
+                   <!-- en aşası çoksatanlar falan felan için -->
+                    <div id="content-best" class="tab-panel">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="https://unsplash.com" alt="Elbise">
+                                <div class="product-title">Melisita Valeria Fırfırlı Elbise</div>
+                                <div class="product-price">32,40 TL + KDV</div>
+                            </div>
+                            <div class="product-card">
+                                <img src="https://unsplash.com" alt="Ayakkabı">
+                                <div class="product-title">Klasik Deri Günlük Ayakkabı</div>
+                                <div class="product-price">45,00 TL + KDV</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content-new" class="tab-panel">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="https://unsplash.com" alt="Spor Ayakkabı">
+                                <div class="product-title">Onitsuka Tiger Mexico 66 Unisex</div>
+                                <div class="product-price">92,50 TL + KDV</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="content-discount" class="tab-panel">
+                        <div class="product-grid">
+                            <div class="product-card">
+                                <img src="https://unsplash.com" alt="Oto Koltuk">
+                                <div class="product-title">Cardie Ultra Protect Oto Koltuğu</div>
+                                <div class="product-price">83,90 TL + KDV</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
